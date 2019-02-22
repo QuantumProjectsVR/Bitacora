@@ -1,0 +1,447 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bitácora: In Case Of</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="wrapAll clearfix">
+			<div class="sidebar">
+				<div class="logo">
+					<a href="/"><img src='img/logoqpshort.png' alt="logo"></a>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a href="#">Main page</a></li>
+						<li><a href="#">Contents</a></li>
+						<li><a href="#">Featured content</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portal</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portal</a></li>
+					</ul>
+				</div>
+
+			
+			</div>
+			<div class="mainsection">
+				<div class="headerLinks">
+					<span class="user">Not logged in</span> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a> <a href="#">Log in</a>
+				</div>
+				<div class="tabs clearfix">
+					<div class="tabsLeft">
+						<ul>
+							<li><a href="#" class="active">Article</a></li>
+							<li><a href="#">Talk</a></li>						
+						</ul>
+					</div>
+					<div id="simpleSearch">
+						<input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size="12" />
+						<div id="submitSearch"></div>
+					</div>
+					<div class="tabsRight">
+						<ul>
+							<li><a href="#" class="active">Read</a></li>
+							<li><a href="#">View source</a></li>						
+							<li><a href="#">View history</a></li>						
+						</ul>
+					</div>
+				
+				</div>
+				<div class="article">
+					<h1>Bitácora: In Case Of...</h1>
+					<p class="siteSub">Descripciones, detalles técnicos y más. | Redactado por los integrantes de Quantum Projects</p>
+					<p class="roleNote"></p>
+
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/logo.png" width="500px"/>
+						</div>
+						Logo del software.</a>
+					</div>
+					<p style="text-align:justify"><strong>In Case Of... Fire VRsion</strong> es un simulacro de incendios en <strong>realidad virtual</strong>, desarrollado en C# por <strong>Quantum Projects</strong>. Fundada por <strong>Cristian Cázares y Héctor Torres</strong> estudiantes de <a href ="https://altum.edu.mx/">Instituto Altum</a> en Culiacán, Sinaloa.</p>
+					<p style="text-align:justify">Utiliza Unity como motor gráfico y Oculus como el equipo de Realidad Virtual que utiliza. El equipo está trabajando para hacerlo multiplataforma y poderlo ejecutar en otros equipos como HTC Vive o Play Station VR.</p>
+					
+					<div class="contentsPanel">
+						<div class="contentsHeader">Contents</div>
+						<ul>
+							<li>
+								<span>1</span><a href="#Descripción">Descripción</a>
+								
+							<li>
+							<li>
+								<span>2</span><a href="#Antecedentes">Antecedentes de los desarrolladores</a>
+								<ul>
+									<li><span>2.1</span><a href="#Galería">La Galería de la Biología</a></li>
+								</ul>
+							</li>
+							
+							<li><span>3</span><a href="#Inspiración">Inspiración para <em>In Case Of...</em></a></li>
+							<li><span>4</span><a href="#Objetivos">Objetivos de <em>Fire VRsion</em></a></li>
+							<li><span>5</span><a href="#Convencionales">Desventajas de los simulacros convencionales</a></li>
+							<li>
+								<span>6</span><a href="#Herramientas">Herramientas</a>
+								<ul>
+									<li><span>6.1</span><a href="#Oculus">Oculus Rift</a></li>
+									<li><span>6.2</span><a href="#Unity">Unity</a></li>
+									<li><span>6.3</span><a href="#CS">C#</a></li>
+								</ul>
+							</li>
+							
+							<li><span>7</span><a href="#Métodos">Descripción general de los métodos</a>
+							<ul>
+								<li><span>7.1</span><a href="#M1">Sistemas de partículas</a> </li>
+								<li><span>7.2</span><a href="#M2">Grabbers</a> </li>
+								<li><span>7.3</span><a href="#M3">Raycast</a> </li>
+								<li><span>7.4</span><a href="#M4">Menú</a> </li>
+								<ul>
+									<li style="margin-left:15px"><span>6.4.1</span><a href="#Menu1">GUI</a></li>
+									<li style="margin-left:15px"><span>6.4.2</span><a href="#Menu2">Apuntador</a></li>
+								</ul>
+								<li><span>7.5</span><a href="#M5">Barras de vida</a> </li>
+								<li><span>7.6</span><a href="#M6">Event Manager</a> </li>
+								<li><span>7.8</span><a href="#M7">Haptics</a> </li>
+								<li><span>7.9</span><a href="#M8">Layers</a> </li>
+								<li><span>7.10</span><a href="#M9">Congelar tiempo</a></li>
+							</ul>
+							</li>
+							<li><span>8</span><a href="#Cronograma">Objetivos</a></li>
+							<li><span>9</span><a href="#Daltonismo">Filtro para daltonismo</a></li>
+							
+						</ul>
+
+					</div ><span id="Descripción">
+					<h2> <span id="Descripción">Descripción general</h2> </span>
+					<h3>Simulacro de incendios en realidad virtual</h3>
+					<p><strong><em>In Case Of...</em></strong> planea ser una serie de simulacros de diversas emergencias, para revolucionar la forma en que hacen los simulacros convencionales, pues son muy mediocres y tienen varias desventajas..</p>
+					<p>En la serie se mostrará la teoría necesaria y las medidas a tomar en cuenta en las situaciones de emergencia, así como también se ubicará al usuario a una serie de retos sobre situaciones de vulnerabilidad cotidiana.</p>
+					<p><em>In Case Of... <strong>Fire VRsion</strong></em> es el primero de la serie anteriormente mencionada. En él, se fusiona una gran invtestigación documental, la experiencia de un exbombero voluntario y una basta cantidad de métodos de desarrollos de videojuegos enfocados en realidad virtual.</p>
+					<h3>Explicación del nombre.</h3>
+					<p><em>"In Case Of" (al español: "En Caso de...")</em> fue inspirado en los comunes anuncios de espacios públicos que titulan "¿Qué hacer en caso de:?", y posteriomente exponen instrucciones básicas para situaciones de emergencia.</p>
+					<p>Por otro lado, <em>Fire VRsion</em> es un juego de palabras en inglés: VR (virtual reality), «realidad virtual» y -sion (version), para hacer referencia a "Versión de Incendios".</p>
+					
+					
+					<span id="Antecedentes">
+						<h2><span id="Antecedentes">Antecedentes</h2></span>
+						<p style="text-align:justify">
+							Anteriormente, Quantum Projects ha trabajado en diversos programas educativos orientados a ramas como la Física, Biología, Historia, etc. Aprovechando las ventajas de utilizar tecnologías nuevas como la realidad virtual, pues se logra estimular las 3 formas de aprendizaje (Kinestésica, Visual y Auditiva), permitiendo a los alumnos retener con mayor facilidad los temas que abordarían en una clase normal, y además muestren mayor interés por estos mismos.
+						</p>
+						<h3><span id="Galería">La Galería de la Biología</em></span></h3>
+						<p style="text-align:justify">
+							El primer gran proyecto en realidad virtual de Quantum Projects fue una “museo de células” en donde se explicaban los tipos de estas. Se mostraban modelados de células gigantes y visualmente atractivos. Mediante un botón real en 3D, se reproducía un audio describiendo las células y sus partes, a la par que se hacía un acercamiento a la par que se iban mencionando sus orgánulos.
+						</p>
+						<p style="text-align:justify">
+							Había un apartado dedicado al proceso en el que una célula reproduce, ilustrado por una animación 3D sincronizado a una narración.
+						</p>
+						<p style="text-align:justify">
+							Por último, se apreciaban el ADN y ARN de tamaño monumental dando vueltas. Al pie de este se encontraban modelos a escala que el usuario podía tomar, arrojar, etcétera. 
+						</p>
+
+						<span id="Inspiración">
+								<h2> <span id="Inspiración">Inspiración del Software<em></em></h2> </span>
+								<p style="text-align:justify">
+									El 17 de mayo de 2018, los integrantes de Quantum Projects expusieron La Galería de la Biología en la feria de robótica “Robotsin”, llevada a cabo en el Modular Inés Arredondo (Teatro MIA), en Culiacán, Sinaloa.
+									De este modo, un proyecto que ellos subestimaban, resultó ser aclamado por muchos de los asistentes a la feria.
+									Al siguiente día (18 de mayo), conocieron al maestro de la UAdeO Ángel González, quién les extendió la invitación para participar en Infomatrix.
+									Continuaron trabajando hasta junio con el mismo proyecto. Al culminarlo, conscientes de los alcances y las limitantes de La Galería de la Biología formularon las características con las que su nuevo proyecto para Infomatrix debería cumplir. Entre ellas destacaba aumentar considerablemente la interactividad de este.
+									Sin embargo, aún carecían de un tema para aplicar todas estas nuevas características, por lo que pasaron alrededor de 2 meses únicamente investigando todas las herramientas con las que contaba el motor gráfico (Unity).
+								</p>
+								<h3>El Surgimiento de <em>In Case Of... Fire VRsion</em></h4>
+								<p style="text-align:justify">
+									La idea, al principio tentativa, de hacer un simulacro de incendios en realidad virtual surge el 16 de junio de 2018 cuando en la escuela sede (Instituto Altum) se realizó un simulacro contra incendios. Activaron la alarma de incendios desde la cocina de la escuela y colocaron máquinas de humo con la intención de hacerlo más realista, sin embargo, al salir de la creciente nube de humo, las cocineras se mostraron sumamente calmadas e indiferentes. Posteriormente hicieron que todos los alumnos que fueran a un punto de reunión ubicado en un área de césped.</p>
+								<p style="text-align:justify"> Ahí, Cristian Cázares y Héctor Torres, captaron un gran error; ubicarse en el césped. En caso de un creciente incendio, las brasas pueden alcanzar el césped, en donde las llamas de esparcirán rápidamente. Además, el simulacro se estaba haciendo tedioso, pues no se estaba llevando a cabo ninguna actividad relevante.</p>
+								<p style="text-align:justify">Justo ahí, los integrantes se plantean primero como una broma hacer un “Simulador de Simulacro en Realidad Virtual”. Dicha broma los convencía más mientras lo pensaban.</p>
+								<p style="text-align:justify">Lo que determinó en llevar a cabo la idea de simulacros de incendios, fue una capacitación por parte de SEPROIN (empresa de equipos de protección contra incendios) en Instituto Altum. El expositor mostró una de sus adquisiciones para llevar simulacros más eficientes: Los Bullex BullsEyes, extintores electrónicos que apagan un fuego virtual. Una idea innovadora que resolvía casi todas las desventajas de los simulacros convencionales. Sin embargo, el mismo expositor nos compartió que eran sumamente costosas.
+								</p style="text-align:justify">
+
+
+
+					<span id="Objetivos">
+					<h2> <span id="Objetivos">Objetivos de <em>In Case Of... Fire VRsion</em></h2></span>
+					<h3>Enseñar a evaluar una situación de peligro.</h3>
+					<p style="text-align:justify">
+						Enseñarle al usuario que es lo que se debe limitar a hacer en caso de un incendo, si es posible apagarlo con un simple extintor o si es necesario dejárselo completamente a las autoridades, así como los errores más básicos.
+					</p>
+					<h3>Capacitar a las personas.</h3>
+					<p style="text-align:justify">
+						Capacitar a las personas sobre el uso del extintor, así como el conocimiento teórico sobre los tipos de incendios y cómo se comportan.
+					</p>
+					<h3>Generar una cultura <em>"arpueba de incendios"</em></h3>
+					<p style="text-align:justify">
+						Generar una cultura en donde las personas estén conscientes del peligro inminente que representan los incendios y dejen de subestimarlos.
+					</p>
+
+
+
+					<span id="Convencionales">
+					<h2> <span id="Convencionales">¿Por qué los simulacros convencionales no son suficientes?</h2></span>
+					<h3>Falta de interactividad.</h3>
+					<p style="text-align:justify">
+						No participas de manera activda en el simulacro. No se llevan a cabo dinámicas lo suficientemente activas para comprender mejor lo que se está explicando, recayendo en una actividad tediosa y poco productiva.
+					</p>
+					<h3>No son realistas.</h3>
+					<p style="text-align:justify">
+						No se generan las emociones que se sentirían en una situación de peligro, por lo que el miedo que inunda a las personas en las situaciones de emergencias, los hacen perder el control, la confianza en ess capacidades y olvidar datos esenciales.
+					</p>
+					<h3>No hay retención</h3>
+					<p style="text-align:justify">
+						La falta de interactividad y de realismo hacen que los datos que definen si las personas se salvan o no, no se retengan, provocando que se cometan errores muy comunes que terminan en desenlaces fatales.
+					</p>
+
+
+					<span id="Herramientas">
+					<h2> <span id="Herramientas">Herramientas</h2></span>
+					<h3><spank id="Oculus"></span>Oculus</h3>
+					<p style="text-align:justify">
+						El hardware que permite utilizar “In Case Of…” es <strong>Oculus Rift</strong> ya que la idea y el proyecto fueron desarrollados en primera instancia con este headset y con las librerías correspondientes que se implementaron en el motor gráfico.
+					</p>
+					<p style="text-align:justify"> 
+						Oculus Rift es un casco de realidad virtual que está siendo desarrollado por Oculus VR. Los juegos y sus plataformas deben ser diseñados específicamente para funcionar correctamente con Oculus Rift. Para ello, Oculus ha creado un kit de desarrollo de software ( SDK ) para ayudar a los desarrolladores con la integración de Oculus Rift en sus juegos. Este incluye código, ejemplos y documentación. En sus primeros proyectos Quantum Projects dependía únicamente de los SDK de Oculus, posteriormente se vieron obligados a desarrollar propios para corrgeir bugs que los de Oculus presentaban.
+					</p>
+					<p style="text-align:justify">
+						Por cuestiones económicas, Quantum Projects únicamente posee Oculus Rift, el cual ha sido de mucho provecho pues los controles que provee pueden llegar a imitar las manos humanas. En planes futuros <em>In Case Of... </em> estará disponible para HTC Vive y posteriormente en todos aquellos kits de realidad virtual que admitan la introducción de las manos humanas, pues es lo que garantiza la interacción en el software.
+					</p>
+
+					<h3><spank id="Unity"></span>Unity</h3>
+					<p style="text-align:justify">
+						El motor gráfico que utiliza “In Case Of…” es Unity 3D, este motor gráfico fue implementado debido a las muchas características que presentaba como los sistemas de partículas, las animaciones, sus sistema de colisiones, etc. Además, ofrece cuerpos rígidos (Rigidbodies) que se ajustaron para obtener <strong>físicas reslitas</strong>.
+					</p>
+					<p style="text-align:justify">
+						Unity utiliza OpenGL (en Windows, Mac y Linux), Direct3D (solo en Windows), OpenGL ES (en Android y iOS), e interfaces propietarias (Wii). Tiene soporte para mapeado de relieve, mapeado de reflejos, mapeado por paralaje, oclusión ambiental en espacio de pantalla, sombras dinámicas utilizando mapas de sombras, render a textura y efectos de post-procesamiento de pantalla completa.
+					</p>
+
+					<p><strong>Para ver la documentación de Unity más consultada ir <a href="#Pie">al pie de la página</a> </strong> </p>
+
+					<h3><spank id="CS"></span>C#</h3>
+					<p style="text-align:justify">
+						C# es un lenguaje de programación orientado a objetos desarrollado y estandarizado por Microsoft como parte de su plataforma .NET.</p>
+					<p style="text-align:justify">	
+						Este es el lenguaje que demanda Unity, no obstante, no es muy parecido al C# para aplicaciones de consola o de escritorio. La gran cantidad de "Usings" de Unity provee de un sinfín de sintáxis ajena a C#, sobre todo porque se es necesario acceder a los parámetros de cada componente, ya sea del objeto en el que se encuentra el script, o en otros objetos. </p>
+					<p style="text-align:justify"> 	
+						Así mismo, se agregan una cantidad importante de variables usadas para modificar las entidades presentes en Unity como: GameObject, Animation, Image, Mesh Renderer, Collider, etc.
+					</p>
+
+
+					<span id="Métodos">
+					<h2> <span id="Métodos">Métodos empleados</h2></span>
+
+					<h3><spank id="M1"></span>Sistemas de partículas</h3>
+					<p style="text-align:justify">
+						Los modelados 3D son perfectos para representar objetos sólidos y bien definidos, sin embargo, para simular efectos movibles y deformables como líquidos en movimiento, gases, chispas, fuego, entre otras cosas, se necesitan <strong>sistemas de partículas.</strong>
+					</p>
+
+					<p style="text-align:justify">
+						En esencia, son un conjunto de imágenes que se muestran de forma aleatoria dentro de ciertos parámetros como volumen, velocidad, frecuencia, tiempo, entre otras. Para evitar repetividad de patrones, se deben de usar muchas imágenes, pues así los algoritmos tienen más variedad para utilizar.
+					</p>
+
+					<p style="text-align:justify">
+						Los sistemas de partículas están presentes en todo el software, a simple vista el más importante corresponde a las partículas emitidas por el fuego, ya que es un elemento constante en la temática del <em>In Case Of…</em> . Un ejemplo de sus módulos modificables, es el de “emisión”. Para lograr que el fuego dejara de emitir partículas, es decir, decreciera, se modificó su emisión estableciendo desde un Script una proporcionalidad entre la vida del fuego y la cantidad de partículas que emite.
+					</p>
+
+
+					<h3><spank id="M2"></span>Grabbers</h3>
+					<p style="text-align:justify">
+						Los Grabbers son tanto un método como una herramienta usada en el proyecto, internamente se le conoce como Grabbers a todo código que permita tomar un objeto para poder interactuar con él simulando el agarrado que ejercen las manos reales. Los principales objetos tomables acorde a la anterior descripción se encuentran en el extintor como el gatillo, la boquilla, y la manguera, etc.
+					</p>
+
+					<p style="text-align:justify">
+						Para estos últimos se tuvo que formular un método propio de Quantum Projects ya que los códigos proporcionados por Oculus no cumplían adecuadamente con lo que se requería y presentaban constantes fallos.
+					</p>
+
+
+					<h3><spank id="M3"></span>Raycast</h3>
+					<p style="text-align:justify">
+						El Raycast es un rayo invisible de Unity que se invoca al momento de hacer cualquier tipo de disparo, pues devuelve como valor un boleano indicando si el rayo toco un Collider (un objeto). Con este se pueden obtener otras propiedades de los objetos como el nombre, la Etiqueta (Tag) e incluso scripts contenidos dentro del objeto y así poder accesar directamente a una variable pública.
+					</p>
+
+					<p style="text-align:justify">
+						Dentro del software este método está presente en el extintor siendo como base de las mecánicas principales de “In case of…Fire VRsion” ya que se utiliza para apagar el fuego. Se invoca un raycast el cual al detectar que colisionó con un objeto con la etiqueta “Fire”, inmediatamente accede a el script que guarda la variable de “health” del fuego y le empieza a restar puntos de vida, los cuáles van de 3 a 100. En caso de que el rayo deje de tocar con el fuego, la vida de este acrecentará haciendo que el fuego retome sus fuerzas.	
+					</p>
+
+
+					<h3><spank id="M4"></span>Menu</h3>
+					<p style="text-align:justify">
+						Para el menú se utilizan distintos métodos entre ellos el <em>Raycast, Transform.Translate, SetColor, GetComponent, </em> etc.
+					</p>
+
+					<p style="text-align:justify">
+						Usualmente para elaborar menus se utilizan <strong>“canvas”</strong>, planos 2D sobre un espacio 3D en donde se muestran todas las opciones seleccionables.
+					</p>
+
+					<p style="text-align:justify">
+						El menú de In Case Of… no es la excepción, sin embargo, a diferencia de muchos videojuegos, el canvas elaborado por Quantum Projects no está sobrepuesto a la cámara, más bien representa un objeto en el espacio.
+					</p>
+
+					<p style="text-align:justify">
+						El menú presenta un efecto 3D que indica cuando estas seleccionando un botón mediante el  acercamiento de este, para lograr este efecto los desarrolladores diseñaron un método usando el componente <strong>Transform</strong> (todo lo que tenga que ver con su posición, rotación y escala) del objeto modificando su posición con la instrucción <strong>translate</strong> (movimiento de los objetos aplicando fuerzas para hacer una sensación graduar).
+					</p>
+
+					<p style="text-align:justify">
+						En lugar de un selector normal se utiliza un Raycast cuyo origen es el dedo índice del usuario generando un apuntador que sirve como guía para el usuario, el color de este inicialmente es rojo pero los desarrolladores dejaron un espacio internamente (desde Unity) para poder cambiar el color mediante el uso de un <strong>Public Gradient</strong> (una variable pública que funge cómo un color con degradado).
+					</p>
+
+
+
+
+					<p style="margin-left:30px"><spank id="Menu1"></span><strong>GUI</strong></p>
+					<p style="text-align:justify; margin-left:30px;">
+						La <strong>interfaz gráfica de usuario (GUI)</strong> es el componente más importante del menú, este contiene los botones que permiten desplazarte por distintas escenas y seleccionar las opciones de configuración especial como los filtros de daltonismo y el idioma del simulador.
+					</p>
+
+					<p style="text-align:justify; margin-left:30px;">
+						Para lograr una mayor interacción con el usuario se utilizó un método que acerca o aleja los botones y un ligero cambio en la transparencia de algunos botones en función de si está siendo seleccionado o no, todos los botones del menú están distribuidos por Canvas.
+					</p>
+
+
+
+					<h4 style="margin-left:30px"><spank id="Menu2"></span><strong>Apuntador</strong></h4>
+					<p style="text-align:justify;margin-left:30px">
+						El apuntador es lo que permite la selección de botones de manera más precisa debido al uso de un Raycast visible por el usuario, este al interactuar con los botones manda un parámetro que determina que función mandara a llamar, además de las funciones predeterminadas como acercar o alejar también se utilizan otros métodos como el cambio de escenas.
+					</p>
+
+					<p style="text-align:justify;margin-left:30px">
+						Para que el componente Raycast sea visible por el usuario se necesita un Line Renderer, esta herramienta tiene muchos componentes modificables como el color, la distancia de renderizado e incluso puede contener una imagen que es alargada infinitamente. Para hacer la apariencia de un láser se utilizó una imagen simple, un degradado rectangular rojo con centro blanco.
+					</p>
+
+
+					<h2><spank id="M5"></span>Barras de vida</h3>
+					<p style="text-align:justify">
+						En los videojuegos convencionales se muestra la vida del jugador y otros aspectos mediante imágenes 2D sobrepuestas en el entorno 3D. Esto es poco eficiente en realidad virtual, pues como la propia imagen 3D del software simulan la vista humana, ubicar una barra de vida en 2D sería como reducir el campo de visión del ojo humano.
+					</p>
+
+					<p style="text-align:justify">
+						Quantum Projects necesitaba involucrarlo dentro del software como un objeto 3D que no obstruyera la visión, por lo que generaron dos pulseras en la mano izquierda que indican su nivel de vida y oxigeno respectivamente.
+					</p>
+
+					<p style="text-align:justify">
+						Para lograrlo se enlazó las variables de vida y de mediante una proporcionalidad al material que les da color a las respetivas barras. Dicho material no puede cambiar de color, pero si puede degradarse geométricamente y terminar completamente transparente.
+					</p>
+
+					<p style="text-align:justify">
+						Los desarrolladores de In Case Of… hicieron que el material se degradara en un sentido determinado y debajo de este pusieron una barra fija de color rojo, lo que da la ilusión de que a medida que disminuye el color verde (vida restante), la otra parte se va llenando de rojo.
+					</p>
+
+					<p style="text-align:justify">
+						El oxígeno disminuye gradualmente a lo largo de un tiempo específico que inicialmente son 5 minutos. Este valor no es modificable por el usuario y está sujeto a futuros cambios en el proyecto, como la introducción de diferentes dificultades, en donde el oxígeno disminuye más rápidamente.
+					</p>
+
+					<p style="text-align:justify">
+						Por otra parte, la barra de vida solo disminuye cuando el usuario entra en contacto con el área del fuego establecida internamente con un <strong>trigger</strong> en cada fuego. Los triggers son colliders que únicamente detectan colisiones pero las ignora en el contexto físico.
+					</p>
+
+
+					<h2><span id="M6"></span>Event Manager</h3>
+					<p style="text-align:justify">
+						Este método fue creado por uno de los desarrolladores para que los prefabs (objetos previamente creados destinados a utilizar clones de este) pudieran aparecer en la escena entre intervalos de tiempo específicos esto es usado en la aparición de los fuegos y sus humos correspondientes.
+					</p>
+
+					<p style="text-align:justify">
+						En un futuro se planea hacer un algoritmo que haga que el fuego se propague a medida que las partículas del fuego colisionen con cosas con etiqueta de “flamable”.
+					</p>
+
+					<p style="text-align:justify">
+						El código de Event Manager también obtiene el resultado del jugador comprobando si este pudo apagar todos los fuegos arrojando un mensaje de victoria o uno de muerte en caso de que la vida de este llegue a cero.
+					</p>
+
+					
+
+					<h2><span id="M7"></span>Haptics</h3>
+					<p style="text-align:justify">
+						Los controles de Oculus tienen entre sus muchas características la vibración, esta es importante para generar un efecto parecido a tocar algo en la vida real, sin embargo, en “In Case Of…” se usa para avisar al jugador cuando está recibiendo daño por parte del fuego (el cuál se detecta con <strong>triggers</strong>, como se expuso en la sección de <a href="#M5">barras de vida</a>).
+					</p>
+
+					<p style="text-align:justify">
+						Dentro de las librerías de Oculus se encuentra un código que contiene los métodos que modulan la vibración del control con un rango de 0-255. Quantum Projects los manipuló considerablemente para activarlos según la necesidad del proyecto y regular su intensidad.
+					</p>
+
+					<h2><span id="M8"></span>Layers</h3>
+					<p style="text-align:justify">
+						Durante el desarrollo del software, más en concreto, durante las fases finales, el equipo de realidad virtual presentó algunos errores en la interacción de los objetos con el jugador, dando lugar así a uno de los problemas más grandes del software.
+					</p>
+
+					<p style="text-align:justify">
+						El jugador tiene un componente llamado character controller, el cuál además de darle la capacidad de enlazar los controles con su posición dentro del espacio tridimensional, también le da un “collider”, la forma en que un objeto choca contra otros y genera ya sea, que no pueda avanzar, o que los mueva a su paso.
+					</p>
+
+					<p style="text-align:justify">
+						El collider integrado en el character controller que provía Oculus estaba terriblemente descalibrado, por lo que chocaba descontroladamente sobre todo al momento de tomar el extintor, lo que generaba una fuerza en el jugador que movía indefinidamente hasta encontrar un lugar libre de otros colliders.
+					</p>
+
+					<p style="text-align:justify">
+						Hay un método que se incorpora mediante código en el que un collider puede ignorar otros, sin embargo, como el character controller no es un collider normal, no se puede usar el mismo método.
+					</p>
+
+					<p style="text-align:justify">
+						Luego de una extensa investigación en la documentación de Unity, encontramos que se pueden distribuir los objetos por (Capas) para ignorar ciertas mecánicas como las colisiones y los Raycast. Así se logró administrar las interacciones para que no interfirieran entre si durante la ejecución del software, el jugador y el extintor se ignorar lo que hace que se puedan a travesar para resolver el bug planteado anteriormente.
+					</p>
+
+
+					<h2><spank id="M9"></span>Congelar tiempo</h3>
+					<p style="text-align:justify">
+						Para congelar el tiempo el script Event Manager baja la propiedad de <strong>Time.TimeScale</strong> (escala del tiempo del software), esta es una constante de tiempo que mantiene todas las físicas y emisiones del proyecto como los sistemas de partículas, las animaciones etcétera, por lo que, al manipularlas, se pueden aumentar o disminuir la velocidad de los eventos.
+					</p>
+
+					<p style="text-align:justify">
+						Este método se utilizó para realizar un efecto muy visual al indicar la muerte del jugador, ya que los desarrolladores no querían que fuera muy repentino y directo, sino algo más gradual que diera la sensación de culminación.
+					</p>
+
+					<br>				
+					
+
+					
+
+					
+					<div class="lavenderBox">
+						<span id="Pie"><div class="header">Documentación de Unity</div></span>
+						<div class="subtitle linklist">Una parte de las más consultadas por Quantum Projects.</div>
+						<div class="linklist">
+							<a href="https://docs.unity3d.com/ScriptReference/ParticleSystem.html">Sistemas de partículas </a> <a href="https://docs.unity3d.com/ScriptReference/Collider.html">Colliders </a> <a href="https://docs.unity3d.com/Manual/OculusControllers.html">Input de Oculus en Unity </a> <a href="https://docs.unity3d.com/ScriptReference/CharacterController.html">Character Controller </a> <a href="https://docs.unity3d.com/es/current/Manual/class-AudioSource.html">Luptatum constituam </a> <a href="#">Audio/Fuentes de audio </a> <a href="https://docs.unity3d.com/ScriptReference/GameObject.GetComponent.html">Get Component  </a> <a href="https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html">Detectar colisiones </a> <a href="https://docs.unity3d.com/es/current/Manual/UICanvas.html">Canvas </a> <a href="https://docs.unity3d.com/ScriptReference/Physics.Raycast.html">Raycast </a> <a href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform </a> <a href="https://docs.unity3d.com/es/current/Manual/Coroutines.html">Corrutinas </a><a href="https://docs.unity3d.com/ScriptReference/WaitForSeconds.html">Delays </a> <a href="https://docs.unity3d.com/ScriptReference/Time-timeScale.html">Escala de Tiempo </a> <a href="https://docs.unity3d.com/ScriptReference/Time-deltaTime.html">Delta Time </a> <a href="https://docs.unity3d.com/ScriptReference/Transform-position.html">Transform Position </a> <a href="https://docs.unity3d.com/ScriptReference/Transform.Rotate.html">Transform Rotation </a> <a href="https://docs.unity3d.com/ScriptReference/Transform.Translate.html">Transform Translate </a> <a href="https://docs.unity3d.com/Manual/class-LineRenderer.html">Line Renderer (Láser)  </a> <a href="https://docs.unity3d.com/ScriptReference/Color.html">Colores Unity </a> <a href="https://docs.unity3d.com/ScriptReference/Gradient.html">Degradados de colores </a> <a href="https://docs.unity3d.com/ScriptReference/Material.html">Materiales </a> <a href="https://docs.unity3d.com/ScriptReference/Physics.IgnoreLayerCollision.html">Ignorar colisiones entre layers </a> <a href="https://developer.oculus.com/downloads/unity/">Integración Oculus-Unity </a> <a href="https://www.youtube.com/watch?v=IT7vDqm4xiY">Serie "Unity para Retrasados" (tutoriales ideales para aprender lo más básico de unity) </a> <a href="https://www.youtube.com/user/Brackeys">Canal de "Brackeys". Tutoriales de calidad de Unity avanzado </a>
+						</div>
+						
+						<div class="subtitle">Para más información: <strong>quantumprojects@hotmail.com</strong></div>
+					</div>
+					
+					<div class="categories">
+						
+					</div>
+					
+				</div>
+				<div class="pagefooter">
+					This page was last edited on 22.02.2018  by Quantum Projects  <!-- Please leave this link unchanged -->
+					<div class="footerlinks">
+						<a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a> <a href="#">Developers</a>
+					</div>
+				</div>
+			
+			
+			</div>		
+		</div>
+		
+		
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="script.js"></script>
+
+
+    </body>
+</html>
